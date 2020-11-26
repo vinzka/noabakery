@@ -2,13 +2,8 @@
   <div class="logo-home">
     <%= cl_image_tag('https://res.cloudinary.com/diavcbwzh/image/upload/v1606245805/Noa%20Bakery/WhatsApp_Image_2020-11-24_at_17.04.03_hmptck.jpg')%>
   </div>
-  <div class="navbar">
-    <ul class="buttons">
-      <li><%= link_to "Accueil", root_path, class: "btn-navbar text-decoration-none" %></li>
-      <li><%= link_to "Consulting", consulting_path, class: "btn-navbar text-decoration-none" %></li>
-      <li><%= link_to "Atelier", atelier_path, class: "btn-navbar text-decoration-none" %></li>
-      <li><%= link_to "Collaboration", collaboration_path, class: "btn-navbar text-decoration-none" %></li>
-      <li><%= link_to "Creation", creation_path, class: "btn-navbar text-decoration-none" %></li>
-    </ul>
+  <%= render 'shared/navbar' %>
+  <div class="avatar">
+    <%= image_tag "candice.jpg"%>
   </div>
 </div>
