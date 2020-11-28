@@ -1,24 +1,64 @@
-.logo-home img {
-  width: 15%;
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-
 .logo-home {
   text-align-last: center;
-}
-
-.logo-consulting img {
-  width: 30%;
 }
 
 .logo-consulting {
   text-align-last: center;
 }
 
+.logo-atelier {
+  text-align-last: center;
+}
+
+.logo-creation {
+  text-align-last: center;
+}
+
+.logo-home img {
+  margin-top: -6%;
+  width: 35%;
+  margin-bottom: -7%;
+}
+
+.logo-consulting img {
+  margin-top: -6%;
+  width: 35%;
+  margin-bottom: -7%;
+}
+
+.logo-atelier img {
+  margin-top: -6%;
+  width: 35%;
+  margin-bottom: -7%;
+}
+
+.logo-creation img {
+  margin-top: -6%;
+  width: 35%;
+  margin-bottom: -7%;
+}
+
+
 @media (min-width: 100px) and (max-width: 575px) {
   .logo-home img {
   text-align-last: center;
+  margin-top: -4%;
+  width: 45%;
+  margin-bottom: -9%;
+  }
+
+  .logo-consulting img {
+  text-align-last: center;
+  margin-top: -4%;
+  width: 45%;
+  margin-bottom: -9%;
+  }
+
+  .logo-atelier img {
+  text-align-last: center;
+  margin-top: -4%;
+  width: 45%;
+  margin-bottom: -9%;
   }
 }
 
