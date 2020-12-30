@@ -1,0 +1,85 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 75px;
+  position: relative;
+  height: 100px;
+  clear: both;
+  margin: 0 auto;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  padding-left: 18%;
+}
+
+.footer-links li {
+  list-style: none;
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+#copyright {
+  color: black;
+  margin: 0 auto;
+  padding: 45px 0px;
+  font-size: 12px;
+  text-align: end;
+}
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .footer {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .footer-links {
+    padding-left: 14%;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .footer {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .footer-links {
+    padding-left: 14%;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .footer {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .footer-links {
+    padding-left: 18%;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .footer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .footer-links {
+    padding-left: 18%;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .footer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .footer-links {
+    padding-left: 18%;
+  }
+}
