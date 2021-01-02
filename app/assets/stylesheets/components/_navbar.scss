@@ -14,7 +14,7 @@
 .buttons {
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: center !important;
   display: flex;
   list-style-type: disc;
   margin-block-start: 1em;
@@ -31,6 +31,7 @@
 
 .buttons a {
   font-size: 14px;
+  padding: 20px;
 }
 
 .buttons a:hover {
@@ -40,8 +41,55 @@
 
 .btn-navbar {
   background-color: white;
-  padding: 1px 5px 10px;
+  padding: 1px 5px 10px !important;
   color: black;
   font-size: 12px;
   padding: 0px 0px 25px;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .buttons a {
+    font-size: 14px;
+    padding: 0px !important;
+  }
+  .navbar {
+    justify-content: initial !important;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .buttons a {
+    font-size: 14px;
+    padding: 0px !important;
+  }
+
+  .navbar {
+    justify-content: initial !important;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .buttons a {
+    font-size: 14px;
+    padding: 20px !important;
+  }
+
+  .navbar {
+    justify-content: center !important;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .buttons a {
+    font-size: 14px;
+    padding: 20px !important;
+  }
+
+  .navbar {
+    justify-content: center !important;
+  }
 }
