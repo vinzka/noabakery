@@ -2,6 +2,8 @@
   width: 60%;
   border-radius: 50%;
   text-align-last: center;
+  -webkit-filter: drop-shadow(1px 1px 1px #999);
+  filter: drop-shadow(1px 1px 1px #999);
 }
 
 
@@ -38,6 +40,49 @@
   width: 100%;
   border-radius: 50%;
   margin-left: -29px;
+  text-align-last: initial;
+  }
+}
+
+.avatar-consulting img {
+  width: 60%;
+  text-align-last: center;
+  -webkit-filter: drop-shadow(1px 1px 1px #999);
+  filter: drop-shadow(1px 1px 1px #999);
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+ .avatar-consulting img {
+  width: 20%;
+  margin-left: 0px;
+  text-align-last: center;
+ }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .avatar-consulting img {
+  width: 50%;
+  margin-left: 0px;
+  text-align-last: initial;
+ }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .avatar-consulting img {
+  width: 100%;
+  margin-left: 0px;
+  text-align-last: initial;
+ }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .avatar-consulting img {
+  width: 100%;
   text-align-last: initial;
   }
 }
