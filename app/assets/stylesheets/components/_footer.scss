@@ -9,6 +9,15 @@
   margin: 0 auto;
 }
 
+
+.icons {
+  background-image: 'instagram.png';
+}
+
+.icons:hover {
+  background-image: 'instagram-rose.png';
+}
+
 .footer-links {
   display: flex;
   align-items: center;
