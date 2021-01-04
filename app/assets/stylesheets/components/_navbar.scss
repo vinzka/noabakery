@@ -14,7 +14,6 @@
 .buttons {
   margin: 0;
   padding: 0;
-  text-align: center !important;
   display: flex;
   list-style-type: disc;
   margin-block-start: 1em;
@@ -49,10 +48,6 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-  .buttons a {
-    font-size: 14px;
-    padding: 0px !important;
-  }
   .navbar {
     justify-content: initial !important;
   }
@@ -62,11 +57,11 @@
 @media (min-width: 768px) {
   .buttons a {
     font-size: 14px;
-    padding: 0px !important;
+    padding: 20px !important;
   }
 
   .navbar {
-    justify-content: initial !important;
+    justify-content: center !important;
   }
 }
 

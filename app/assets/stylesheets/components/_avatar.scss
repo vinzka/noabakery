@@ -1,56 +1,39 @@
 .avatar img {
-  width: 100%;
+  width: 60%;
   border-radius: 50%;
-  margin-left: -12px;
-  padding-top: 16px;
 }
 
-
-@media (min-width: 100px) and (max-width: 575px) {
-  .avatar img {
-    width: 200px;
-    border-radius: 50%;
-    margin-left: 0px;
-    padding-top: 0px;
-  }
-}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-  .avatar img {
-    width: 200px;
-    border-radius: 50%;
-    margin-left: 0px;
-    padding-top: 0px;
-  }
+ .avatar img {
+  width: 20%;
+  margin-left: 0px;
+  text-align: center;
+ }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .avatar img {
-    width: 200px;
-    border-radius: 50%;
-    margin-left: -12px;
-    padding-top: 16px;
-  }
+  width: 50%;
+  margin-left: 0px;
+ }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .avatar img {
-    width: 200px;
-    border-radius: 50%;
-    margin-left: -12px;
-    padding-top: 16px;
-  }
+  width: 100%;
+  margin-left: 0px;
+ }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .avatar img {
-    width: 200px;
+  width: 100%;
   border-radius: 50%;
-  margin-left: -12px;
-  padding-top: 16px;
-  }
+  margin-left: -29px;
+}
 }
