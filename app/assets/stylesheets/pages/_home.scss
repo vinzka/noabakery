@@ -31,3 +31,14 @@
   text-align: left;
 }
 
+@media (min-width: 100px) and (max-width: 575px) {
+  #about-me {
+  margin-left: 0px;
+  text-align: initial;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+  text-align: left;
+  }
+}
