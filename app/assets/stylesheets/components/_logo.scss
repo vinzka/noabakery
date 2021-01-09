@@ -15,12 +15,11 @@
 }
 
 .logo-home img {
-  align-content: center;
   width: 20%;
   padding-top: 10px;
   padding-bottom: 20px;
-  background-size: cover;
-  background-size: cover;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -45,10 +44,11 @@
 
 @media (min-width: 100px) and (max-width: 575px) {
   .logo-home img {
-  align-content: center;
   width: 30%;
   padding-top: 20px;
   padding-bottom: 10px;
+  align-items: center;
+  justify-content: center;
   }
 
   .logo-consulting img {
