@@ -16,9 +16,10 @@
 
 .logo-home img {
   align-content: center;
-  margin-top: -6%;
-  width: 35%;
-  margin-bottom: -7%;
+  width: 20%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
 }
 
 .logo-consulting img {
@@ -42,10 +43,10 @@
 
 @media (min-width: 100px) and (max-width: 575px) {
   .logo-home img {
-    margin-top: -4%;
-    width: 60%;
-    margin-bottom: -9%;
-    place-content: center;
+  align-content: center;
+  width: 30%;
+  padding-top: 20px;
+  padding-bottom: 10px;
   }
 
   .logo-consulting img {

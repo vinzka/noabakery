@@ -6,16 +6,21 @@
   filter: drop-shadow(1px 1px 1px #999);
 }
 
+.avatar {
+      text-align-last: center;
+
+}
+
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
  .avatar img {
   width: 20%;
   margin-left: 0px;
-  text-align-last: center;
+    text-align-last: center !important;
  }
  .avatar {
-  text-align-last: center;
+  text-align-last: center !important;
  }
 }
 
