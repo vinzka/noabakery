@@ -7,24 +7,24 @@
   <%= render 'shared/navbar' %>
   <div class="main-navigation">
     <div class="row justify-content-center">
-    <div class="col-12 col-lg-3">
-      <div class="avatar">
-        <%= image_tag "candice.jpg"%>
+      <div class="col-12 col-lg-3">
+        <div class="avatar">
+          <%= image_tag "candice.jpg", crop: :fill, class:"avatar" %>
+        </div>
+      </div>
+      <div class="col-12 col-lg-9">
+          <div id="about-me">
+            <br>
+            <p>Passionnée de pâtisserie depuis mon plus jeune âge et diplômée d’une école de commerce et
+              d’une école de pâtisserie, je décide de faire de ma passion mon métier.
+              <br>
+              <br>
+              Formée par Cyril Lignac et Benoit Couvrand et consultante pour l’émission Le Meilleur
+              Pâtissier deux années consécutives, j’ai le plaisir de partager mon savoir-faire à travers mes
+              différentes activités.</p>
+          </div>
       </div>
     </div>
-    <div class="col-12 col-lg-9">
-        <div id="about-me">
-          <br>
-          <p>Passionnée de pâtisserie depuis mon plus jeune âge et diplômée d’une école de commerce et
-            d’une école de pâtisserie, je décide de faire de ma passion mon métier.
-            <br>
-            <br>
-            Formée par Cyril Lignac et Benoit Couvrand et consultante pour l’émission Le Meilleur
-            Pâtissier deux années consécutives, j’ai le plaisir de partager mon savoir-faire à travers mes
-            différentes activités.</p>
-        </div>
-    </div>
-  </div>
 </div>
   <%= render 'shared/footer' %>
 </div>
